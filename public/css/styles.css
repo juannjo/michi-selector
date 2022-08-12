@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#randomMichis {
+    display: flex;
+    flex-direction: column;
+}
+#randomImageContainer article {
+    margin: 0 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+#randomImageContainer {
+    display: flex;
+    flex-direction: row;
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+img {
+    width: 300px;
+}
+button {
+    width: 250px;
+    margin-top: 10px;
+    margin: 20px auto 20px;
+}
+#favorites {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
